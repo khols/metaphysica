@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "metaphysica",
+  "version": "${version}",
+  "name": "metaphysica",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/colew/metaphysica"
+  },
+  "license": "MIT",
+  "icon": "assets/metaphysica/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.gmail.colewombwell.metaphysica.client.MetaphysicaClient"
+    ],
+    "main": [
+      "com.gmail.colewombwell.metaphysica.Metaphysica"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
